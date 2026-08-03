@@ -1,0 +1,33 @@
+# 파이썬 가상 환경 폴더
+.venv/
+
+# 파이썬 캐시 폴더(임시 폴더)
+__pycache__/
+#임시 파일들의 폴더 어차피 다른사람들은 못씀
+
+# 주피터 노트북 자동 저장 폴더
+.ipynb_checkpoints/
+#혼자서 백업이나 저장ㅎ는 폴더
+
+# Mac os Finder 폴더 보기 설정이 저장된 파일
+.DS_Store
+# mac에서만
+
+# .py 파일 실행 시 생성되는 컴파일 캐시 파일
+*.pyc
+# 캐시랑비슷
+
+#파이참 설정
+.idea
+
+# dotenv 무시 설정
+.env
+# 비밀 키 같은거 공유 가능 (깃허브에 올리지 않음)
+
+models/
+catboost_info/
+
+data/
+
+cifar*
+cifar*.*
