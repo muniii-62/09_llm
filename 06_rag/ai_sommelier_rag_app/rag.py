@@ -179,7 +179,6 @@ def _create_chat_model() -> ChatOpenAI:
         model_name=CHAT_MODEL_NAME,
         use_responses_api=True,
         temperature=0,
-        reasoning_enabled='none',
         request_timeout=60, #60초 내로 응답이 오지 않으면 오류 처리
         max_retries=1, #일시적 실패에 대한 재시도 횟수
         max_tokens = 5000
