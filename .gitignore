@@ -31,3 +31,9 @@ data/
 
 cifar*
 cifar*.*
+
+*.mp3
+*.csv
+*.pdf
+*.jsonl
+*.json
